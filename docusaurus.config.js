@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://appliedprompting.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'APAI', // Usually your GitHub org/user name.
+  projectName: 'APAI Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'APAI',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'APAI Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -83,8 +83,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/skunkwerks2020/ai-apai-doc',
+            label: 'GitHub Docs',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/skunkwerks2020/ai-apai-tech',
+            label: 'GitHub Code',
             position: 'right',
           }
         ],
@@ -122,13 +127,17 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitHub Docs',
+                href: 'https://github.com/skunkwerks2020/ai-apai-doc',
+              },
+              {
+                label: 'GitHub Code',
+                href: 'https://github.com/skunkwerks2020/ai-apai-tech',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Applied Prompting | Applied AI | Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
